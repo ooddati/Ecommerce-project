@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar.navbar-expand-lg.bg-light {
+    background-color: #f0dacd !important; 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 15px !important;
+    
+}
+
+.navbar .nav-link, 
+.navbar .navbar-brand {
+    color: #ca4fc0; /* Change to your desired color */
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+    color: #d47373; /* Change to your desired hover color */
+}
+.down-menu{
+    background-color:#f0dacd ;
+}
+ /* Custom Styles */
+.hime {
+    background-image: url('images/bg.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    height: 100vh; 
+    width: auto; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin: 0;
+    padding: 0;
+}
+
+.hime .btn-explore {
+    background-color: #ffffff;
+    color: #000000; 
+    border: 2px solid #ffffff; 
+    border-radius: 30px; 
+    padding: 10px 20px; 
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    text-decoration: none;
+}
+
+.hime.btn-explore:hover {
+    background-color: #f0f0f0;
+    color: #000000;
+    border-color: #000000;
+    text-decoration: none;
+}
+
+
+#container-fluid {
+    background-color: #f0dacd !important;
+    width: 100%;
+    padding-left: 15px; /* Bootstrap default padding */
+    padding-right: 15px; /* Bootstrap default padding */
+    height: auto;
+    margin: 0 auto; /* Centering the container */
+
+}
+
+.card .btn {
+    width: 40%; /* Full width button */
+    padding: 10px 0;
+    text-align: center; /* Adjust padding for better look */
+}
+
+@media (max-width: 576px) {
+    .card .btn {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 8px 0; /* Adjust padding for smaller screens */
+    }
+}
+
+.container {
+    overflow: auto;
+    max-height: 100vh; /* or a smaller value if needed */
+}
+
+
+.card {
+    margin-bottom: 20px; 
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+.row-gap {
+    margin-bottom: 20px;
+}
+.custom-img {
+    height: 350px; /* Set a fixed height */
+    object-fit: cover; /* Ensure the image covers the entire area */
+}
+
+
+.footer {
+    background-color: #f0dacd; 
+    color: #4a4a4a; 
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 5px solid #e0a2a2;
+}
+
+.footer h5 {
+    color: #d47373; 
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.footer .form-control {
+    background-color: #f0dacd;
+    border: 1px solid #e0a2a2;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+
+
+.footer .btn-primary {
+    background-color: #FF69B4; 
+    border: none;
+    transition: background-color 0.3s ease; 
+}
+
+.footer .btn-primary:hover {
+    background-color: #FF69B4; 
+}
+footer p:nth-child(1) {
+    font-size: 24px; 
+    color:#dd8ad6;
+    margin-bottom: 10px; 
+    font-weight: bold;
+    text-align: center;
+}
+
+footer p:nth-child(2) {
+    color: #dd8ad6;
+    font-size: 16px; 
+    max-width: 100%;
+    text-align: center;
+    line-height: 24px;
+    
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.footer .social a {
+    margin: 0 10px;
+    color: #dd8ad6; 
+    font-size: 24px; 
+    transition: color 0.3s ease;
+}
+
+
+
+.footer .social a:hover {
+    color: #dd5cd3; 
+}
